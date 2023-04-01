@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+}
+.nav-list_item{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav_link{
+    text-decoration: none;
+    color:#bab8b8;
+}
+.nav_link:hover{
+    color: rgba(0, 191, 255, 0.556);
+    border-bottom: 1px solid rgba(0, 191, 255, 0.556);
+}
+.nav_btn{
+    padding: 10px 25px;
+    background-color: rgba(0, 191, 255, 0.556);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.nav_btn:hover{
+    background-color: rgba(4, 114, 151, 0.556);
+    transition: .5s;
+}
+
+
+/* Main qismi uchun */
+/* main_section qismi uchun */
+.main_section{
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.make_creative{
+    width: 48%;
+    float: left;
+    margin-top: 140px;
+}
+.make_creative-title{
+    font-size: 45px;
+    margin-bottom: 12px;
+    font-family: sans-serif;
+}
+.make_creative-info{
+    color: #bab8b8;
+    font-family: 'Montserrat';
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.make_btn{
+    padding: 10px 25px;
+    background-color: rgba(0, 191, 255, 0.556);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.make_btn:hover{
+    background-color: rgba(4, 114, 151, 0.556);
+    transition: .5s;
+}
+.main_pic{
+    float: left;
+    width: 48%;
+}
+
+.clearfix{
+    clear: both;
+}
+/* services_section qismi uchun */
+.services_section{
+    height: 500px;
+    margin-bottom: 10px;
+}
+.services_section-title, .services_section-info{
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 27px;
+}
+.services_section-title{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.services_section-info{
+    color: #bab8b8; 
+    font-family: 'Montserrat';
+}
+.brend_about-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brend_about{
+    width: 262px;
+    height: 261px;
+    border-radius: 15px;
+    transition: .6s all ease;
+}
+.brend_about:hover{
+    background-image: url("../img/Patten.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 4px 8px #d2d2d2;
+}
+.brend_about img{
+    padding-top: 30px;
+    padding-left: 87px;
+    margin-bottom: 20px;
+}
+.brend_about-title, .brend_about-info{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Montserrat';
+}
+
+
+/* marketing_section qismi uchun */
+.marketing_section{
+    margin-bottom: 80px;
+    height: 500px;
+}
+.marketing_about{
+    width: 60%;
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+   margin-top: 100px;
+}
+.marketing_about-title{
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+.marketing_about-info{
+    color: #898787;
+    font-family: 'Montserrat';
+    margin-bottom: 30px;
+}
+.job_about{
+    color: #6b6a6a;
+    font-family: 'Montserrat';
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.marketing_img{
+    width: 40%;
+    float: left;
+}
+.learn_btn{
+    padding: 10px 25px;
+    background-color: rgba(0, 191, 255, 0.556);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.learn_btn:hover{
+    background-color: rgba(4, 114, 151, 0.556);
+    transition: .5s;
+}
+
+
+/* work_section qismi uchun */
+.work_section{
+    height: 500px;
+    background-image: url(../img/Background\(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.work_about{
+    color: white;
+    font-family: 'Roboto Slab';
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 180px;
+}
+.work_about-title{
+    font-size: 30px;
+}
+.work_about-title, .work_about-info{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.work_about img{
+    margin-left: 300px;
+}
+.work_about-info{
+    line-height: 28px;
+}
+.play_video{
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 1s;
+}
+.play_video:hover{
+    transform: scale(1.2);
+}
+
+/* best_features-section qismi uchun */
+.best_features-section{
+    height: 950px;
+}
+.features_title, .features_info{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.features_title{
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.features_info{
+    line-height: 26px;
+    color: #898787;
+    font-family: 'Montserrat';
+    margin-bottom: 28px;
+}
+.features_box{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.features_about{
+    width: 330px;
+    height: 350px;
+    font-family: 'Montserrat';
+    padding: 15px 20px;
+    text-align: center;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 1px rgba(0, 191, 255, 0.556);
+    transition: .5s;
+}
+.features_about:hover{
+    box-shadow:0 5px 4px rgba(0, 171, 228, 0.556);
+}
+.features_about:hover p{
+    color: #2e2c2c;
+    transition: 1s;
+}
+.features_about img{
+    margin-bottom: 25px;
+}
+.features_about h4{
+    margin-bottom: 20px;
+}
+.features_about p{
+    line-height: 25px;
+    color: #898787;
+}
+
+/* aboutMe_section qismi uchun */
+.aboutMe_section{
+    background-image: url("../img/Background\(2\).svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 80px;
+    font-family: 'Montserrat';
+}
+.aboutMe{
+    padding-top: 100px;
+    text-align: center;
+}
+.aboutMe img{
+    margin-bottom:30px;
+}
+.aboutMe_info{
+    line-height: 35px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.info_Me{
+    display: flex;
+    justify-content: center;
+}
+.Me_pic{
+    margin-right: 30px;
+}
+.My_name h5{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.my_job{
+    font-size: 18px;
+}
+/* last_section qismi uchun */
+.last_section{
+    height: 250px;
+}
+.future_info{
+    text-align: center;
+}
+.future_title{
+    font-family: sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.started_btn{
+    padding: 10px 25px;
+    background-color: rgba(0, 191, 255, 0.556);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.started_btn:hover{
+    background-color: rgba(4, 114, 151, 0.556);
+    transition: .5s;
+}
+
+/* footer qismi uchun */
+footer{
+    height: 560px;
+    background-image: url("../img/Futer\ Background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer_list{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.footer_item{
+    list-style: none;
+}
+.footer_item span{
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+b{
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+sub{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+.footer_item p{
+    line-height: 30px;
+    font-family: 'Montserrat';
+    color: #898787;
+    margin-bottom: 20px;
+}
+.footer_item button{
+    padding: 10px 25px;
+    background-color: #223;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+.footer_item button:hover{
+    background-color: rgb(27, 27, 38);
+    border: 1px solid #d2cfcf;
+}
+
+.last_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
+.back_list{
+    display: flex;
+    align-items: center;
+}
+.back_list-item{
+    list-style: none;
+    margin-right: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.networks_list{
+    display: flex;
+}
+.networks_list-item{
+    list-style: none;
+    margin-right: 20px;
+    transition: .5s;
+    cursor: pointer;
+}
+.networks_list-item:hover{
+    transform: scale(1.3);
+}
+.last_info{
+    color: #898787;
+    font-family: 'Montserrat';
+}
